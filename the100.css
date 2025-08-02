@@ -5,7 +5,7 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-ul .artigo{
+ul .artigo {
     list-style: none;
     padding-left: 5px;
 }
@@ -13,6 +13,10 @@ ul .artigo{
 a {
     color: blue;
     text-decoration: none;
+}
+
+h2 {
+    margin-bottom: 10px;
 }
 
 .bar {
@@ -30,7 +34,7 @@ a {
     color: rgb(127, 25, 141);
     display: block;
     margin-left: 4em;
-    
+
 }
 
 .content {
@@ -43,6 +47,24 @@ a {
     grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.Episo {
+    display: table;
+    color: #202122;
+    margin: 1em 0;
+    border-spacing: 2px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table thead th{
+    background-color: #dee2e5;
+}
+
+.Episo tr ,th, td{
+    border: 1px solid var(--border-color-base,#1a1b1b);
+    padding: 0.2em 0.4em;
 }
 
 footer {
@@ -71,6 +93,10 @@ a {
     color: #36c;
 }
 
+.elenco li {
+    color: #202122;
+}
+
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
@@ -88,6 +114,11 @@ span {
     color: #36c;
 }
 
+/* ações nos elementos */
+table tbody tr:hover td{
+    background-color: #acccf0;
+    cursor: pointer;
+}
 a:hover {
     text-decoration: underline;
 }

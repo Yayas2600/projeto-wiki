@@ -19,12 +19,12 @@
 
     </div>
 
-    <div class="anchors">
+    <article class="anchors">
         <h2>Neste Artigo</h2>
         <ul>
             <li><a href="#">Âncoras</a></li>
         </ul>
-    </div>
+    </article>
 </div>
 
 <footer>
