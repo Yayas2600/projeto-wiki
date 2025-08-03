@@ -1,27 +1,31 @@
 <header>
     <div class="logo">
-        <img src="img/logo.png" width="200" alt="logo da página" />
+        <img src="img/logo_yasmin-removebg-preview.png" width="150" alt="logo da página" />
+    </div>
+    <div class="bar">
+        <p><i>Boas-vindas à Yas,
+                <span class="sub-linha" text-decoration="none">onde você encontra tudo sobre as melhores
+                    séries.</span></i></p>
     </div>
 </header>
 
-<div class="bar"></div>
-
 <div class="content">
     <nav class="sidebar">
-        <h2>Série de TV</h2>
+        <h2>Séries de TV</h2>
         <ul>
             <li><a href="index.html">The Walking Dead</a></li>
             <li><a href="the100.html">The 100</a></li>
+            <li><a href="pretty.html">Pretty Little Liars</a></li>
         </ul>
     </nav>
 
-    <div class="main">
+    <main>
 
-    </div>
+    </main>
 
     <article class="anchors">
         <h2>Neste Artigo</h2>
-        <ul>
+        <ul class="artigo">
             <li><a href="#">Âncoras</a></li>
         </ul>
     </article>

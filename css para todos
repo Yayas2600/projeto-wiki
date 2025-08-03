@@ -29,8 +29,45 @@ a {
 .sub-linha {
     color: rgb(127, 25, 141);
     display: block;
-    margin-left: 4em;
+    margin-left: 2em;
     
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.anchors h2{
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    top:10px;
+}
+
+.artigo {
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    top:50px;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+.sidebar h2{
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    top:10px;
+}
+
+.sidebar ul{
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    top:50px;
 }
 
 .content {
@@ -71,21 +108,16 @@ a {
     color: #36c;
 }
 
-.anchors {
-    border-left: solid 1px #cdcdcd;
-    padding-left: 15px;
-}
-
-.sidebar {
-    border-right: solid 1px #cdcdcd;
-}
-
 figure {
     text-align: center;
 }
 
 span {
     color: #36c;
+}
+
+.Referencias{
+    margin-bottom: 30px;
 }
 
 a:hover {

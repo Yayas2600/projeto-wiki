@@ -6,34 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The 100</title>
-    <link rel="stylesheet" href="the100.css">
+    <link rel="stylesheet" href="css/the100.css">
 </head>
 
 <body>
-
     <header>
         <div class="logo">
-            <img src="img/logo.png" width="200" alt="logo da página" />
+            <img src="img/logo_yasmin-removebg-preview.png" width="150" alt="logo da página" />
+        </div>
+        <div class="bar">
+            <p><i>Boas-vindas à Yas,
+                    <span class="sub-linha" text-decoration="none">onde você encontra tudo sobre as melhores
+                    séries.</span></i></p>
         </div>
     </header>
 
-    <div class="bar">
-        <p><i>Boas-vindas à Wikipédia,
-                <span class="sub-linha" text-decoration="none">a enciclopédia livre que todos podem
-                    editar.</span></i></p>
-    </div>
-
     <div class="content">
         <nav class="sidebar">
-            <h2>Série de TV</h2>
+            <h2>Séries de TV</h2>
             <ul>
                 <li><a href="index.html">The Walking Dead</a></li>
                 <li><a href="the100.html">The 100</a></li>
+                <li><a href="pretty.html">Pretty Little Liars</a></li>
+                <li><a href="Stranger.html">Stranger Things</a></li>
             </ul>
         </nav>
 
-        <div class="main">
-            <section id="inicio">
+        <main>
+            <section id="Início">
                 <h1>Tudo sobre The 100</h1>
                 <hr>
                 <p>The 100 (pronuncia-se The Hundred: "Os Cem") é uma série de televisão de drama e ficção científica
@@ -107,7 +107,6 @@
             <section id="Episódios">
                 <h2>Episódios</h2>
                 <hr>
-                <h3>Piloto</h3>
                 <table class="Episo">
                     <thead>
                         <tr>
@@ -120,63 +119,73 @@
                             <th scope="col">Final da temporada</th>
                         </tr>
                     </thead>
-                    <tr onclick="location.href='#1tempo'">
+                    <tr onclick="location.href='#1tempo'" onkeydown="if(event.key === 'Enter') location.href='#1tempo'"
+                        tabindex="0" role="link">
                         <td scope="row" colspan="1" style="background:#245557;width:10px"></td>
-                        <td colspan="1">1</td>
+                        <td class="one" colspan="1">1</td>
                         <td colspan="2">13</td>
                         <td colspan="1" style="padding:0.2em 0.4em">19 de março de 2014</td>
                         <td colspan="1" style="padding:0 8px">11 de junho de 2014</td>
                     </tr>
-                    <tr>
+                    <tr onclick="location.href='#2tempo'" onkeydown="if(event.key === 'Enter') location.href='#2tempo'"
+                        tabindex="0" role="link">
                         <td scope="row" style="background:#5C5950;width:10px"></td>
-                        <td colspan="1">2</td>
+                        <td class="one" colspan="1">2</td>
                         <td colspan="2">16</td>
                         <td colspan="1" style="padding:0.2em 0.4em">22 de outubro de 2014</td>
                         <td colspan="1" style="padding:0 8px">11 de março de 2015</td>
                     </tr>
-                    <tr>
+                    <tr onclick="location.href='#3tempo'" onkeydown="if(event.key === 'Enter') location.href='#3tempo'"
+                        tabindex="0" role="link">
                         <td scope="row" style="background:#85A0A6;width:10px"></td>
-                        <td colspan="1">3</td>
+                        <td class="one" colspan="1">3</td>
                         <td colspan="2">16</td>
                         <td colspan="1" style="padding:0.2em 0.4em">21 de janeiro de 2016</td>
                         <td colspan="1" style="padding:0.2em 0.4em">19 de maio de 2016</td>
                     </tr>
-                    <tr>
+                    <tr onclick="location.href='#4tempo'" onkeydown="if(event.key === 'Enter') location.href='#4tempo'"
+                        tabindex="0" role="link">
                         <td scope="row" style="background:#EE7315;width:10px"></td>
-                        <td colspan="1">4</td>
+                        <td class="one" colspan="1">4</td>
                         <td colspan="2">13</td>
                         <td colspan="1" style="padding:0.2em 0.4em">1 de fevereiro de 2017</td>
                         <td colspan="1" style="padding:0.2em 0.4em">24 de maio de 2017</td>
                     </tr>
-                    <tr>
+                    <tr onclick="location.href='#5tempo'" onkeydown="if(event.key === 'Enter') location.href='#5tempo'"
+                        tabindex="0" role="link">
                         <td scope="row" style="background:#47515F;width:10px"></td>
-                        <td colspan="1">5</td>
+                        <td class="one" colspan="1">5</td>
                         <td colspan="2">13</td>
                         <td colspan="1" style="padding:0.2em 0.4em">24 de abril de 2018</td>
                         <td colspan="1" style="padding:0.2em 0.4em">7 de agosto de 2018</td>
                     </tr>
-                    <tr>
+                    <tr onclick="location.href='#6tempo'" onkeydown="if(event.key === 'Enter') location.href='#6tempo'"
+                        tabindex="0" role="link">
                         <td scope="row" style="background:#BFB5C6;width:10px"></td>
-                        <td colspan="1">6</td>
+                        <td class="one" colspan="1">6</td>
                         <td colspan="2">13</td>
                         <td colspan="1" style="padding:0.2em 0.4em">30 de abril de 2019</td>
                         <td colspan="1" style="padding:0.2em 0.4em">6 de agosto de 2019</td>
                     </tr>
-                    <tr>
+                    <tr onclick="location.href='#7tempo'" onkeydown="if(event.key === 'Enter') location.href='#7tempo'"
+                        tabindex="0" role="link">
                         <td scope="row" style="background:#1B5735;width:10px"></td>
-                        <td colspan="1">7</td>
+                        <td class="one" colspan="1">7</td>
                         <td colspan="2">16</td>
                         <td colspan="1" style="padding:0.2em 0.4em">20 de maio de 2020</td>
                         <td colspan="1" style="padding:0.2em 0.4em">30 de setembro de 2020</td>
                     </tr>
-                    <!-- definir ids das temporadas e linkar com a tabela-->
-
                 </table>
+                <h3 id="Piloto">Piloto</h3>
                 <p>
                     O primeiro episódio, intitulado "Pilot", foi escrito por Jason Rothenberg e dirigido por Bharat
                     Nalluri. O episódio foi exibido oficialmente em 19 de março de 2014 na emissora norte-americana The
                     CW, e no Brasil foi exibido pelas emissoras MTV e Warner Channel.
                 </p>
+                <figure id="Poster">
+                    <img src="img/The_100_Temporada_1_Poster.jpg" alt="Poster da 1ªtemporada The 100">
+                    <figcaption>Poster da 1ªtemporada The 100</figcaption>
+                </figure>
                 <h3 id="1tempo">1ª temporada (2014)</h3>
                 <p>
                     97 anos antes, um apocalipse nuclear dizimou o planeta Terra e destruiu a civilização. Os únicos
@@ -186,20 +195,117 @@
                     Terra cem jovens prisioneiros, na tentativa de testar a situação no nosso planeta e descobrir se
                     existe a possibilidade de retorno ao local. Além de lidarem com as próprias diferenças, o grupo
                     precisa se unir para enfrentar os perigos que os aguardam por causa da radiação. Para complicar,
-                    tudo indica que eles não estão sozinhos.</p>
+                    tudo indica que eles não estão sozinhos.
+                </p>
+                <h3 id="2tempo">2ª temporada (2014-2015)</h3>
+                <p>Os 48 restantes dos 100 são levados para Mount Weather, onde descobrem uma comunidade de
+                    sobreviventes. É finalmente revelado que a equipe médica do local está extraindo sangue dos
+                    terrestres para se tratarem da radiação e medula óssea dos 48 para que eles finalmente sejam capazes
+                    de sobreviver no lado de fora. Enquanto isso, o restante dos habitantes da Arca conseguem aterrissar
+                    várias estações na Terra e iniciam uma aliança com os Terra-Firmes para salvar seus grupos.
+                </p>
+                <h3 id="3tempo">3ª temporada (2016)</h3>
+                <p>A Arkadia assume uma nova administração quando Pike, um ex-professor e mentor, é eleito como
+                    Chanceler no lugar de Kane e começa uma guerra com os Terra-Firmes. Uma inteligência artificial,
+                    chamada A.L.I.E., é revelada como responsável pelo apocalipse nuclear que devastou a Terra há 97
+                    anos antes dos 100 voltarem para o planeta, e ela toma conta das mentes de quase todos na Arkadia e
+                    na Polis - a capital dos Terra-Firmes.
+                </p>
+                <h3 id="4tempo">4ª temporada (2017)</h3>
+                <p>
+                    Centenas de reatores nucleares em todo o mundo estão derretendo devido a décadas de negligência,
+                    tornando a Terra inabitável novamente. Clarke e os outros procuram maneiras de sobreviver à onda de
+                    radiação. Quando é descoberto que Sangues Noturnos, descendentes dos primeiros Sangues Noturnos, que
+                    incluem Becca Franco, a primeira Comandante e criadora de A.L.I.E., são imunes aos efeitos da
+                    radiação, Clarke e os outros tentam recriar a fórmula, mas suas tentativas falham. Um abrigo antigo
+                    é descoberto, o que pode proteger 1.200 pessoas por cerca de 5 anos; cada um dos doze clãs escolhe
+                    100 pessoas para ficar no abrigo, enquanto um pequeno grupo decide voltar para o espaço e sobreviver
+                    nos restos da Arca. Clarke sobrevive a onda de radiação.
+                </p>
+                <h3 id="5tempo">5ª temporada (2018)</h3>
+                <p>
+                    Após seis anos no espaço e sem combustível para retornar, o pequeno grupo de sobreviventes que
+                    escaparam da onda de radiação avista uma estação espacial desconhecida, que lança uma nave para a
+                    Terra. Então, eles decidem invadir a estação para encontrar uma forma de retornar à Terra; no
+                    entanto, ao fazerem isso, descobrem que a tripulação da nave desconhecida é composta por
+                    prisioneiros e assassinos. Um acordo com esta tripulação permite o resgate de pessoas que ficaram
+                    presas dentro de um abrigo subterrâneo durante os seis anos após a onda de radiação. Agora, a Terra
+                    possui apenas um pequeno vale habitável, que passa a ser disputado em uma guerra entre os
+                    sobreviventes e a tripulação da nave
+                </p>
+                <h3 id="6tempo">6ª temporada (2019)</h3>
+                <p>
+                    Por cinco temporadas, nossos heróis fizeram o que foi preciso para sobreviver na Terra… e nada
+                    funcionou. A terra era insustentável, e acabou perdida para sempre. O que não foi perdido:
+                    esperança. Depois de 125 anos dormindo, Clarke, Bellamy e os outros acordam para descobrir que não
+                    estão mais orbitando a Terra e foram levados para um novo mundo habitável, Alpha. Depois de
+                    desembarcar neste mundo, eles descobrem uma nova sociedade, liderada por famílias no poder
+                    conhecidas como Primes. No entanto, eles também descobrem novos perigos neste novo mundo, e um
+                    misterioso grupo rebelde, conhecido como Filhos de Gabriel.
+                </p>
+                <h3 id="7tempo">7ª temporada (2020)</h3>
+                <p>
+                    A série foi renovada para uma sétima temporada contendo 16 episódios. Em 4 de agosto de 2019, Jason
+                    Rothenberg anunciou em seu Twitter que a sétima temporada seria a última da série, totalizando assim
+                    100 episódios ao todo da série. A sétima temporada teve sua estreia em 20 de maio de 2020.
+                </p>
             </section>
-        </div>
+            <section id="Audiência">
+                <h2>Audiência</h2>
+                <hr />
+                <figure class="Audiencia">
+                    <img src="img/audiência the100.png" alt="imagem da audiência da série nos Estados Unidos">
+                </figure>
+            </section>
+            <br>
+            <section id="Trailer">
+                <h3>Confira o Trailer:</h3>
+                <hr />
+                <figure>
+                    <video controls width="600">
+                        <source src="video/the100.mp4" />
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                    <figcaption>
+                        Descrição: Trailer da série the 100, o vídeo está apresentando as cenas
+                        mais marcantes da 1ºTemporada para dar curiosidade ao público.
+                    </figcaption>
+                </figure>
+            </section>
+            <section id="Referencias" class="Referencias">
+                <h3>Referências:</h3>
+                <a href="https://pt.wikipedia.org/wiki/The_100_(s%C3%A9rie_de_televis%C3%A3o)">
+                    https://pt.wikipedia.org/wiki/The_100_(s%C3%A9rie_de_televis%C3%A3o)
+                </a>
+            </section>
+        </main>
 
-        <div class="anchors">
+        <article class="anchors">
             <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
+            <ul class="artigo">
+                <li><a href="#Início">Início</a></li>
+                <li><a href="#Sinopse">Sinopse</a></li>
+                <li><a href="#Elenco">Elenco e personagens</a></li>
+                <li><a href="#Episódios">Episódios</a></li>
+                <ul class="encubado">
+                    <li><a href="#Poster">Poster</a></li>
+                    <li><a href="#Piloto">Piloto</a></li>
+                    <li><a href="#1tempo">1ª temporada</a></li>
+                    <li><a href="#2tempo">2ª temporada</a></li>
+                    <li><a href="#3tempo">3ª temporada</a></li>
+                    <li><a href="#4tempo">4ª temporada</a></li>
+                    <li><a href="#5tempo">5ª temporada</a></li>
+                    <li><a href="#6tempo">6ª temporada</a></li>
+                    <li><a href="#7tempo">7ª temporada</a></li>
+                </ul>
+                <li><a href="#Audiência">Audiência</a></li>
+                <li><a href="#Trailer">Trailer</a></li>
+                <li><a href="#Referencias">Referências</a></li>
             </ul>
-        </div>
+        </article>
     </div>
-
     <footer>
-        <p>Esta página foi editada pela última vez às 22h20min de 31 de julho de 2025.</p>
+        <p>Esta página foi editada pela última vez às 17h45min de 02 de Agosto de 2025.</p>
         <p>Este texto é disponibilizado nos termos da licença <a
                 href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
                 target="_self"><span>Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA
