@@ -104,7 +104,7 @@ table thead th{
 }
 
 .Episo tr ,th, td{
-    border: 1px solid var(--border-color-base,#1a1b1b);
+    border: 1px solid var(--border-color-base, #a2a9b1);
     padding: 0.2em 0.4em;
 }
 

@@ -89,6 +89,15 @@ a {
     top:50px;
 }
 
+.artigo .encubado li{
+    margin-left: -20px;
+}
+
+.artigo .encubado li::marker{ /*define o marcador*/
+    content: "▸";
+}
+
+
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }

@@ -1,0 +1,166 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul .artigo{
+    list-style: none;
+    padding-left: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.bar {
+    font-size: 40px;
+    font-family: sans-serif;
+    display: flex;
+    background-color: #f9f9fb;
+    padding: 15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+    justify-content: center;
+}
+
+.sub-linha {
+    color: rgb(127, 25, 141);
+    display: block;
+    margin-left: 2em;
+    
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.anchors h2{
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    top:10px;
+}
+
+.artigo {
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    top:50px;
+}
+
+.artigo .encubado li{
+    margin-left: -20px;
+}
+
+.artigo .encubado li::marker{ /*define o marcador*/
+    content: "▸";
+}
+
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+.sidebar h2{
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    top:10px;
+}
+
+.sidebar ul{
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    top:50px;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.elenco li {
+    color: #202122;
+}
+
+.Episo {
+    display: table;
+    color: #202122;
+    margin: 1em 0;
+    border-spacing: 2px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table thead th{
+    background-color: #dee2e5;
+}
+
+.Episo tr ,th, td{
+    border: 1px solid var(--border-color-base, #a2a9b1);
+    padding: 0.2em 0.4em;
+}
+
+footer {
+    max-width: 90%;
+    font-size: 12px;
+    margin-left: 60px;
+    text-align: left;
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+
+footer .links li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer ul {
+    display: flex;
+    padding-left: 0%;
+    gap: 20px;
+}
+
+footer ul .links,
+li,
+a {
+    color: #36c;
+}
+
+figure {
+    text-align: center;
+}
+
+span {
+    color: #36c;
+}
+
+.Referencias{
+    margin-bottom: 30px;
+}
+
+/* ações nos elementos */
+table tbody tr:hover td{
+    background-color: #f5bd9c8e;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer span:hover {
+    text-decoration: underline;
+}
